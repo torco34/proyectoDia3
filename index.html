@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+	<title>Pinchar boton y sale imagen</title>
+	<link rel="stylesheet" href="icon/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="folder.css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="#">Cambiando</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto" date-color="white">
+      <li class="  active">
+        <a class="lis" href="#" date-color="white">Home </a>
+      </li>
+      <li class="">
+        <a class="lis" href="#" date-color="red">Home</a>
+      </li>
+      <li class="">
+        <a class="lis" href="#" date-color="blue">humor</a>
+        
+      </li>
+      <li class="">
+        <a class="lis" href="#" date-color="pink">Disabled</a>
+      </li>
+       <li class="">
+        <a class="lis" href="#" date-color="yellow">Disabled</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div class="container" id="caja">
+  <div class="row">
+    <div class="col-6"  >
+      <img src="img/luna.jpg" class="Mostrar" width="300" />
+      </div>
+      <div class="col-6"  >
+      <img src="img/sol.jpg" class="Ocultar" width="300" /> 
+     </div>
+   
+     
+    
+  </div>
+</div>
+</div>	
+	<img src="img/sol.jpg" id="Ocultar" width="300" onclick="Ocultar()"/>
+ 
+    
+     <img src="img/luna.jpg" id="Mostrar" width="300" onclick="Mostrar()"/>
+	
+	<script src="js/jquery-3.4.1.min.js"></script> 
+	<script src="js/bootstrap.min.js"></script> 
+	<script src="folder.js/index.js"></script> 
+</body>
+</html>
